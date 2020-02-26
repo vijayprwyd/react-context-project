@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import {UserContext} from './context/UserContext/UserProvider';
-import { UserMenu } from './UserMenu/UserMenu';
-import { Login } from './Login/Login';
+import { Dashboard } from './Components/Dashboard/Dashboard';
+import { Login } from './Components/Login/Login';
+import { UserContext } from './context/context';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-        { user ? <UserMenu/> : <Login/> }
+        { user ? <Dashboard/> : <Login/> }
 
     </div>
   );

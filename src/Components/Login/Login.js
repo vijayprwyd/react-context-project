@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { UserContext } from "../context/UserContext/UserProvider";
+import { UserContext } from "../../context/context";
 
 export function Login() {
 

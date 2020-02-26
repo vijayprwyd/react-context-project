@@ -1,0 +1,20 @@
+.toolbarContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(159, 180, 249);
+}
+
+.toolbarContainer > h3 {
+    margin: 10px;
+    color: rgb(69, 73, 184);
+}
+
+.logoutButton {
+    border: none;
+    cursor: pointer;
+}
+
+.logoutButton:hover {
+    background-color: rgb(245, 245, 245);
+}

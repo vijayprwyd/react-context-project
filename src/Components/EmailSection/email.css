@@ -1,0 +1,16 @@
+.emailSection {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.email {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 1px 15px;;
+}
+
+.email:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+

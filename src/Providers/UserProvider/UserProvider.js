@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-export const UserContext = React.createContext();
+import { UserContext } from "../../context/context";
 
 export function UserProvider(props) {
 
@@ -16,7 +15,7 @@ export function UserProvider(props) {
 
     return (
         <UserContext.Provider
-        
+
             value = {
                 {
                     user,
@@ -31,4 +30,3 @@ export function UserProvider(props) {
         </UserContext.Provider>
     );
 }
-
