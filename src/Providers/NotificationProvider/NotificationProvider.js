@@ -28,6 +28,9 @@ export function NotificationProvider(props) {
                     content: `Sample Notification ${count++}`
                 }
             );
+
+            if(count === 7) clearInterval(interval);
+
             setNotifications(newNotifications);
 
         }, 3000);

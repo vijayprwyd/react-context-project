@@ -26,7 +26,7 @@ export function EmailSection() {
         <ul className="emailSection">
 
             {
-                emails.map((email) => <Email key = {email.id} onClick = {() => setCurrentEmail(email)} email = {email}/>)
+                emails.map((email) => <Email key = {email.id} onClick = {setCurrentEmail} email = {email}/>)
             }
 
         </ul>
